@@ -14,5 +14,5 @@ browser = webdriver.Firefox()
 browser.get('https://stackoverflow.com')
 
 searchElem = browser.find_element_by_css_selector('#search > div > input')
-searchElem.send_keys(subject) # look for selenium on stackoverflow
+searchElem.send_keys(subject) # looks for whatever subject we passed in the Run window ie: stackoverflow python selenium
 searchElem.submit()
