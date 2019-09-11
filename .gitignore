@@ -1,0 +1,8 @@
+/.vscode
+environment.txt
+RomeoAndJuliet.txt
+/reading-and-writing-files/new*
+/reading-and-writing-files/mydata.*
+/debugging/error_log.txt
+*.exe
+*.log
